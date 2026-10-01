@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="HDI2" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="HDI2_IntroQuery" resname="HDI2_IntroQuery">
+        <source xml:space="preserve">In this part you will learn how to query the DataStore</source>
+        <target xml:space="preserve">In this part you will learn how to query the DataStore</target>
+      </trans-unit>
+      <trans-unit id="HDI2_HintPupils" resname="HDI2_HintPupils">
+        <source xml:space="preserve">Select one or several pupils and the information to extract. Then, click on the "Turn to object" or "Turn to collection" button.</source>
+        <target xml:space="preserve">Select one or several pupils and the information to extract. Then, click on the "Turn to object" or "Turn to collection" button.</target>
+      </trans-unit>
+      <trans-unit id="HDI2_FirstName" resname="HDI2_FirstName">
+        <source xml:space="preserve">First name</source>
+        <target xml:space="preserve">First name</target>
+      </trans-unit>
+      <trans-unit id="HDI2_LastName" resname="HDI2_LastName">
+        <source xml:space="preserve">Last name</source>
+        <target xml:space="preserve">Last name</target>
+      </trans-unit>
+      <trans-unit id="HDI2_Email" resname="HDI2_Email">
+        <source xml:space="preserve">Email</source>
+        <target xml:space="preserve">Email</target>
+      </trans-unit>
+      <trans-unit id="HDI2_School" resname="HDI2_School">
+        <source xml:space="preserve">School</source>
+        <target xml:space="preserve">School</target>
+      </trans-unit>
+      <trans-unit id="HDI2_Pupils" resname="HDI2_Pupils">
+        <source xml:space="preserve">Pupils</source>
+        <target xml:space="preserve">Pupils</target>
+      </trans-unit>
+      <trans-unit id="HDI2_EatsMeat" resname="HDI2_EatsMeat">
+        <source xml:space="preserve">Eats meat</source>
+        <target xml:space="preserve">Eats meat</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnToObject" resname="HDI2_BtnToObject">
+        <source xml:space="preserve">Turn to object</source>
+        <target xml:space="preserve">Turn to object</target>
+      </trans-unit>
+      <trans-unit id="HDI2_Schools" resname="HDI2_Schools">
+        <source xml:space="preserve">Schools</source>
+        <target xml:space="preserve">Schools</target>
+      </trans-unit>
+      <trans-unit id="HDI2_Name" resname="HDI2_Name">
+        <source xml:space="preserve">Name</source>
+        <target xml:space="preserve">Name</target>
+      </trans-unit>
+      <trans-unit id="HDI2_State" resname="HDI2_State">
+        <source xml:space="preserve">State</source>
+        <target xml:space="preserve">State</target>
+      </trans-unit>
+      <trans-unit id="HDI2_SchoolFullInfo" resname="HDI2_SchoolFullInfo">
+        <source xml:space="preserve">School full info</source>
+        <target xml:space="preserve">School full info</target>
+      </trans-unit>
+      <trans-unit id="HDI2_SchoolName" resname="HDI2_SchoolName">
+        <source xml:space="preserve">School name</source>
+        <target xml:space="preserve">School name</target>
+      </trans-unit>
+      <trans-unit id="HDI2_WithPrimaryKey" resname="HDI2_WithPrimaryKey">
+        <source xml:space="preserve">With primary key</source>
+        <target xml:space="preserve">With primary key</target>
+      </trans-unit>
+      <trans-unit id="HDI2_WithStamp" resname="HDI2_WithStamp">
+        <source xml:space="preserve">With stamp</source>
+        <target xml:space="preserve">With stamp</target>
+      </trans-unit>
+      <trans-unit id="HDI2_PupilsFullInfo" resname="HDI2_PupilsFullInfo">
+        <source xml:space="preserve">Pupils full info</source>
+        <target xml:space="preserve">Pupils full info</target>
+      </trans-unit>
+      <trans-unit id="HDI2_PupilsLastName" resname="HDI2_PupilsLastName">
+        <source xml:space="preserve">Pupils last name</source>
+        <target xml:space="preserve">Pupils last name</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnToCollection" resname="HDI2_BtnToCollection">
+        <source xml:space="preserve">Turn to collection</source>
+        <target xml:space="preserve">Turn to collection</target>
+      </trans-unit>
+      <trans-unit id="HDI2_HintSchools" resname="HDI2_HintSchools">
+        <source xml:space="preserve">Select one or several schools and the information to extract. Then, click on the "Turn to object" or "Turn to collection" button.</source>
+        <target xml:space="preserve">Select one or several schools and the information to extract. Then, click on the "Turn to object" or "Turn to collection" button.</target>
+      </trans-unit>
+      <trans-unit id="HDI2_Trace" resname="HDI2_Trace">
+        <source xml:space="preserve">Trace</source>
+        <target xml:space="preserve">Trace</target>
+      </trans-unit>
+      <trans-unit id="HDI2_PupilKey" resname="HDI2_PupilKey">
+        <source xml:space="preserve">Pupil \primary key</source>
+        <target xml:space="preserve">Pupil \primary key</target>
+      </trans-unit>
+      <trans-unit id="HDI2_SchoolKey" resname="HDI2_SchoolKey">
+        <source xml:space="preserve">School \ primary key</source>
+        <target xml:space="preserve">School \ primary key</target>
+      </trans-unit>
+      <trans-unit id="HDI2_UpdatePupil" resname="HDI2_UpdatePupil">
+        <source xml:space="preserve">Update pupil</source>
+        <target xml:space="preserve">Update pupil</target>
+      </trans-unit>
+      <trans-unit id="HDI2_CreatePupil" resname="HDI2_CreatePupil">
+        <source xml:space="preserve">Create pupil</source>
+        <target xml:space="preserve">Create pupil</target>
+      </trans-unit>
+      <trans-unit id="HDI2_CreateUpdatePupils" resname="HDI2_CreateUpdatePupils">
+        <source xml:space="preserve">Create / update pupils</source>
+        <target xml:space="preserve">Create / update pupils</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

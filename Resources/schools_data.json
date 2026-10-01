@@ -1,0 +1,4 @@
+[	{		"ID": 45,		"name": "Arts schools",		"state": "New Jersey",		"pupils": {			"__COUNT": 3		},
+                "__NEW": true	},	{		"ID": 46,		"name": "Mathematics school",		"state": "New Jersey",		"pupils": {			"__COUNT": 3		},
+                "__NEW": true	},	{		"ID": 47,		"name": "Literature school",		"state": "Pennsylvania",		"pupils": {			"__COUNT": 3		},
+                "__NEW": true	}]

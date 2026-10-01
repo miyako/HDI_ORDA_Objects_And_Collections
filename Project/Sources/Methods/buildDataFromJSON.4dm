@@ -1,0 +1,16 @@
+//%attributes = {"invisible":true}
+var $txtPupils; $txtSchools : Text
+var $pupilsColl; $schoolsColl : Collection
+
+
+$txtPupils:=Document to text:C1236(Get 4D folder:C485(Current resources folder:K5:16)+"pupils_data.json")
+$txtSchools:=Document to text:C1236(Get 4D folder:C485(Current resources folder:K5:16)+"schools_data.json")
+
+$pupilsColl:=JSON Parse:C1218($txtPupils)
+$schoolsColl:=JSON Parse:C1218($txtSchools)
+
+ds:C1482.Pupil.all().drop()
+ds:C1482.School.all().drop()
+
+ds:C1482.School.fromCollection($schoolsColl)
+ds:C1482.Pupil.fromCollection($pupilsColl)
