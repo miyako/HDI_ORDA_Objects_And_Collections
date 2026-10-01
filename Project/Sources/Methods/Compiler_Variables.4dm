@@ -1,16 +1,6 @@
 //%attributes = {"invisible":true}
-C_BOOLEAN:C305(btnTrace)
-C_LONGINT:C283(extractEmail)
-C_LONGINT:C283(extractFirstName)
-C_LONGINT:C283(extractLastName)
-C_LONGINT:C283(extractName)
-C_LONGINT:C283(extractPupilPK)
-C_LONGINT:C283(extractPupilsLastName)
-C_LONGINT:C283(extractPupilStamp)
-C_LONGINT:C283(extractSchool)
-C_LONGINT:C283(extractSchoolName)
-C_LONGINT:C283(extractSchoolPK)
-C_LONGINT:C283(extractSchoolStamp)
-C_LONGINT:C283(extractWholePupils)
-C_REAL:C285(Header3)
-C_TEXT:C284(mainDescription)
+var btnTrace : Boolean
+var extractEmail; extractFirstName; extractLastName; extractName; extractPupilPK : Integer
+var extractPupilsLastName; extractPupilStamp; extractSchool; extractSchoolName : Integer
+var extractSchoolPK; extractSchoolStamp; extractWholePupils : Integer
+var mainDescription : Text

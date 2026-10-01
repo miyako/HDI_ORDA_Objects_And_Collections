@@ -1,5 +1,5 @@
-C_COLLECTION:C1488($collection)
-C_LONGINT:C283($option1; $option2)
+var $collection : Collection
+var $option1; $option2 : Integer
 
 If (btnTrace)
 	TRACE:C157

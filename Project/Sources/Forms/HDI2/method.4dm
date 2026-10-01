@@ -1,5 +1,4 @@
-C_COLLECTION:C1488($coll)
-C_LONGINT:C283($i; $n)
+var $i; $n : Integer
 
 Case of 
 		

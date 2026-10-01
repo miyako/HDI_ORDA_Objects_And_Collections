@@ -1,9 +1,9 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
 
 
 //Business logic related to the DataStore
-C_TEXT:C284($txtPupils)
-C_COLLECTION:C1488($pupilsColl)
+var $txtPupils : Text
+var $pupilsColl : Collection
 
 buildDataFromJSON
 

@@ -1,5 +1,5 @@
-C_OBJECT:C1216($pupil)
-C_LONGINT:C283($rank)
+var $pupil : Object
+var $rank : Integer
 
 If (btnTrace)
 	TRACE:C157

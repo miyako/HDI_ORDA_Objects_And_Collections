@@ -53,7 +53,8 @@
 					"fontFamily": "System Font",
 					"fontSize": 14,
 					"fontWeight": "bold",
-					"text": "In this part you will learn how to query the DataStore"
+					"text": ":xliff:HDI2_IntroQuery",
+					"stroke": "automatic"
 				},
 				"information4": {
 					"type": "input",
@@ -73,7 +74,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"information3": {
 					"type": "input",
@@ -93,7 +95,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Line9": {
 					"type": "line",
@@ -101,7 +104,7 @@
 					"left": 160,
 					"width": 680,
 					"sizingX": "grow",
-					"stroke": "#696969"
+					"class": "hdi-muted"
 				},
 				"HDIpicture": {
 					"type": "picture",
@@ -123,9 +126,9 @@
 					"width": 460,
 					"height": 40,
 					"sizingY": "move",
-					"stroke": "#8B4513",
 					"fontStyle": "italic",
-					"text": "Select one or several pupils and the information to extract. Then, click on the \"Turn to object\" or \"Turn to collection\" button."
+					"text": ":xliff:HDI2_HintPupils",
+					"class": "hdi-note"
 				},
 				"information1": {
 					"type": "input",
@@ -145,7 +148,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"listBoxSave": {
 					"type": "listbox",
@@ -175,9 +179,6 @@
 							"width": 100,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -186,7 +187,7 @@
 							],
 							"header": {
 								"name": "Header1",
-								"text": "First name",
+								"text": ":xliff:HDI2_FirstName",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -196,8 +197,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column2",
@@ -205,9 +208,6 @@
 							"width": 100,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -216,7 +216,7 @@
 							],
 							"header": {
 								"name": "Header2",
-								"text": "Last name",
+								"text": ":xliff:HDI2_LastName",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -226,8 +226,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column3",
@@ -235,9 +237,6 @@
 							"width": 150,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -246,7 +245,7 @@
 							],
 							"header": {
 								"name": "Header3",
-								"text": "Email",
+								"text": ":xliff:HDI2_Email",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -256,8 +255,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column5",
@@ -265,9 +266,6 @@
 							"width": 150,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -276,7 +274,7 @@
 							],
 							"header": {
 								"name": "Header6",
-								"text": "School",
+								"text": ":xliff:HDI2_School",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -286,10 +284,15 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						}
-					]
+					],
+					"fill": "automatic",
+					"stroke": "automatic",
+					"alternateFill": "automaticAlternate"
 				},
 				"Text6": {
 					"type": "text",
@@ -298,7 +301,8 @@
 					"width": 465,
 					"height": 20,
 					"fontWeight": "bold",
-					"text": "Pupils"
+					"text": ":xliff:HDI2_Pupils",
+					"stroke": "automatic"
 				},
 				"Text": {
 					"type": "text",
@@ -307,21 +311,22 @@
 					"width": 1,
 					"height": 17,
 					"fontWeight": "bold",
-					"text": "Eats meat"
+					"text": ":xliff:HDI2_EatsMeat",
+					"stroke": "automatic"
 				},
 				"pupilToObjectButton": {
 					"type": "button",
 					"top": 540,
 					"left": 40,
 					"width": 150,
-					"height": 20,
 					"sizingY": "move",
-					"text": "Turn to object",
+					"text": ":xliff:HDI2_BtnToObject",
 					"focusable": false,
 					"method": "ObjectMethods/pupilToObjectButton.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Text5": {
 					"type": "text",
@@ -330,7 +335,8 @@
 					"width": 420,
 					"height": 20,
 					"fontWeight": "bold",
-					"text": "Schools"
+					"text": ":xliff:HDI2_Schools",
+					"stroke": "automatic"
 				},
 				"List Box1": {
 					"type": "listbox",
@@ -360,9 +366,6 @@
 							"width": 150,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -371,7 +374,7 @@
 							],
 							"header": {
 								"name": "Header5",
-								"text": "Name",
+								"text": ":xliff:HDI2_Name",
 								"dataSource": "Header3",
 								"stroke": "automatic",
 								"textAlign": "automatic",
@@ -382,8 +385,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column7",
@@ -391,9 +396,6 @@
 							"width": 150,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -402,7 +404,7 @@
 							],
 							"header": {
 								"name": "Header7",
-								"text": "State",
+								"text": ":xliff:HDI2_State",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -412,10 +414,15 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						}
-					]
+					],
+					"fill": "automatic",
+					"stroke": "automatic",
+					"alternateFill": "automaticAlternate"
 				},
 				"Variable": {
 					"type": "input",
@@ -432,7 +439,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Check Box": {
 					"type": "checkbox",
@@ -442,7 +450,7 @@
 					"height": 20,
 					"sizingY": "move",
 					"dataSource": "extractFirstName",
-					"text": "First name",
+					"text": ":xliff:HDI2_FirstName",
 					"focusable": false,
 					"events": [
 						"onClick"
@@ -456,7 +464,7 @@
 					"height": 20,
 					"sizingY": "move",
 					"dataSource": "extractLastName",
-					"text": "Last name",
+					"text": ":xliff:HDI2_LastName",
 					"focusable": false,
 					"events": [
 						"onClick"
@@ -470,7 +478,7 @@
 					"height": 20,
 					"sizingY": "move",
 					"dataSource": "extractSchool",
-					"text": "School full info",
+					"text": ":xliff:HDI2_SchoolFullInfo",
 					"focusable": false,
 					"events": [
 						"onClick"
@@ -491,7 +499,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Check Box5": {
 					"type": "checkbox",
@@ -501,7 +510,7 @@
 					"height": 20,
 					"sizingY": "move",
 					"dataSource": "extractSchoolName",
-					"text": "School name",
+					"text": ":xliff:HDI2_SchoolName",
 					"focusable": false,
 					"events": [
 						"onClick"
@@ -515,7 +524,7 @@
 					"height": 20,
 					"sizingY": "move",
 					"dataSource": "extractPupilPK",
-					"text": "With primary key",
+					"text": ":xliff:HDI2_WithPrimaryKey",
 					"fontStyle": "italic",
 					"focusable": false,
 					"events": [
@@ -530,7 +539,7 @@
 					"height": 20,
 					"sizingY": "move",
 					"dataSource": "extractPupilStamp",
-					"text": "With stamp",
+					"text": ":xliff:HDI2_WithStamp",
 					"fontStyle": "italic",
 					"focusable": false,
 					"events": [
@@ -542,14 +551,14 @@
 					"top": 540,
 					"left": 554,
 					"width": 140,
-					"height": 20,
 					"sizingY": "move",
-					"text": "Turn to object",
+					"text": ":xliff:HDI2_BtnToObject",
 					"focusable": false,
 					"method": "ObjectMethods/schoolToObjectButton.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Check Box8": {
 					"type": "checkbox",
@@ -559,7 +568,7 @@
 					"height": 20,
 					"sizingY": "move",
 					"dataSource": "extractName",
-					"text": "Name",
+					"text": ":xliff:HDI2_Name",
 					"focusable": false,
 					"events": [
 						"onClick"
@@ -573,7 +582,7 @@
 					"height": 23,
 					"sizingY": "move",
 					"dataSource": "extractWholePupils",
-					"text": "Pupils full info",
+					"text": ":xliff:HDI2_PupilsFullInfo",
 					"focusable": false,
 					"events": [
 						"onClick"
@@ -587,7 +596,7 @@
 					"height": 20,
 					"sizingY": "move",
 					"dataSource": "extractPupilsLastName",
-					"text": "Pupils last name",
+					"text": ":xliff:HDI2_PupilsLastName",
 					"focusable": false,
 					"events": [
 						"onClick"
@@ -598,28 +607,28 @@
 					"top": 569,
 					"left": 40,
 					"width": 150,
-					"height": 20,
 					"sizingY": "move",
-					"text": "Turn to collection",
+					"text": ":xliff:HDI2_BtnToCollection",
 					"focusable": false,
 					"method": "ObjectMethods/pupilsToCollectionButton.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"schoolsToCollectionButton": {
 					"type": "button",
 					"top": 569,
 					"left": 554,
 					"width": 140,
-					"height": 20,
 					"sizingY": "move",
-					"text": "Turn to collection",
+					"text": ":xliff:HDI2_BtnToCollection",
 					"focusable": false,
 					"method": "ObjectMethods/schoolsToCollectionButton.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Check Box24": {
 					"type": "checkbox",
@@ -629,7 +638,7 @@
 					"height": 20,
 					"sizingY": "move",
 					"dataSource": "extractSchoolPK",
-					"text": "With primary key",
+					"text": ":xliff:HDI2_WithPrimaryKey",
 					"fontStyle": "italic",
 					"focusable": false,
 					"events": [
@@ -644,7 +653,7 @@
 					"height": 20,
 					"sizingY": "move",
 					"dataSource": "extractSchoolStamp",
-					"text": "With stamp",
+					"text": ":xliff:HDI2_WithStamp",
 					"fontStyle": "italic",
 					"focusable": false,
 					"events": [
@@ -658,9 +667,9 @@
 					"width": 410,
 					"height": 40,
 					"sizingY": "move",
-					"stroke": "#8B4513",
 					"fontStyle": "italic",
-					"text": "Select one or several schools and the information to extract. Then, click on the \"Turn to object\" or \"Turn to collection\" button."
+					"text": ":xliff:HDI2_HintSchools",
+					"class": "hdi-note"
 				},
 				"information2": {
 					"type": "input",
@@ -680,7 +689,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"information5": {
 					"type": "input",
@@ -700,7 +710,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Check Box3": {
 					"type": "checkbox",
@@ -710,7 +721,7 @@
 					"height": 20,
 					"sizingY": "move",
 					"dataSource": "extractEmail",
-					"text": "Email",
+					"text": ":xliff:HDI2_Email",
 					"focusable": false,
 					"events": [
 						"onClick"
@@ -723,7 +734,7 @@
 					"width": 80,
 					"height": 20,
 					"dataSource": "btnTrace",
-					"text": "Trace",
+					"text": ":xliff:HDI2_Trace",
 					"focusable": false,
 					"events": [
 						"onClick"
@@ -746,7 +757,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"listBoxPupils": {
 					"type": "listbox",
@@ -772,9 +784,6 @@
 							"width": 90,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -783,7 +792,7 @@
 							],
 							"header": {
 								"name": "Header4",
-								"text": "Pupil \\primary key",
+								"text": ":xliff:HDI2_PupilKey",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -793,8 +802,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column8",
@@ -802,9 +813,6 @@
 							"width": 100,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -813,7 +821,7 @@
 							],
 							"header": {
 								"name": "Header8",
-								"text": "First name",
+								"text": ":xliff:HDI2_FirstName",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -823,8 +831,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column9",
@@ -832,9 +842,6 @@
 							"width": 100,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -843,7 +850,7 @@
 							],
 							"header": {
 								"name": "Header9",
-								"text": "Last name",
+								"text": ":xliff:HDI2_LastName",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -853,8 +860,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column10",
@@ -862,9 +871,6 @@
 							"width": 150,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -873,7 +879,7 @@
 							],
 							"header": {
 								"name": "Header10",
-								"text": "Email",
+								"text": ":xliff:HDI2_Email",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -883,22 +889,21 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column11",
 							"dataSource": "This:C1470.school.name",
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"header": {
 								"name": "Header11",
-								"text": "School",
+								"text": ":xliff:HDI2_School",
 								"stroke": "automatic",
 								"textAlign": "left",
 								"verticalAlign": "automatic"
@@ -908,8 +913,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column12",
@@ -918,14 +925,11 @@
 							"minWidth": 10,
 							"maxWidth": 32000,
 							"enterable": false,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "center",
 							"verticalAlign": "middle",
 							"header": {
 								"name": "Header12",
-								"text": "School \\ primary key",
+								"text": ":xliff:HDI2_SchoolKey",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -935,38 +939,43 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						}
-					]
+					],
+					"fill": "automatic",
+					"stroke": "automatic",
+					"alternateFill": "automaticAlternate"
 				},
 				"Button2": {
 					"type": "button",
 					"top": 540,
 					"left": 495,
 					"width": 150,
-					"height": 20,
 					"sizingY": "move",
-					"text": "Update pupil",
+					"text": ":xliff:HDI2_UpdatePupil",
 					"focusable": false,
 					"method": "ObjectMethods/Button2.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button3": {
 					"type": "button",
 					"top": 540,
 					"left": 90,
 					"width": 150,
-					"height": 20,
 					"sizingY": "move",
-					"text": "Create pupil",
+					"text": ":xliff:HDI2_CreatePupil",
 					"focusable": false,
 					"method": "ObjectMethods/Button3.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Variable4": {
 					"type": "input",
@@ -980,7 +989,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"information6": {
 					"type": "input",
@@ -1001,7 +1011,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"information7": {
 					"type": "input",
@@ -1022,7 +1033,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"information8": {
 					"type": "input",
@@ -1042,7 +1054,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Text3": {
 					"type": "text",
@@ -1051,7 +1064,8 @@
 					"width": 190,
 					"height": 20,
 					"fontWeight": "bold",
-					"text": "Pupils"
+					"text": ":xliff:HDI2_Pupils",
+					"stroke": "automatic"
 				},
 				"Check Box4": {
 					"type": "checkbox",
@@ -1060,7 +1074,7 @@
 					"width": 80,
 					"height": 20,
 					"dataSource": "btnTrace",
-					"text": "Trace",
+					"text": ":xliff:HDI2_Trace",
 					"focusable": false,
 					"events": [
 						"onClick"
@@ -1083,21 +1097,22 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Button6": {
 					"type": "button",
 					"top": 660,
 					"left": 755,
 					"width": 170,
-					"height": 20,
 					"sizingY": "move",
-					"text": "Create / update pupils",
+					"text": ":xliff:HDI2_CreateUpdatePupils",
 					"focusable": false,
 					"method": "ObjectMethods/Button6.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"listBoxPupilsCollection": {
 					"type": "listbox",
@@ -1123,9 +1138,6 @@
 							"width": 90,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -1134,7 +1146,7 @@
 							],
 							"header": {
 								"name": "Header13",
-								"text": "Pupil \\primary key",
+								"text": ":xliff:HDI2_PupilKey",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -1144,8 +1156,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column14",
@@ -1153,9 +1167,6 @@
 							"width": 100,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -1164,7 +1175,7 @@
 							],
 							"header": {
 								"name": "Header14",
-								"text": "First name",
+								"text": ":xliff:HDI2_FirstName",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -1174,8 +1185,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column15",
@@ -1183,9 +1196,6 @@
 							"width": 100,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -1194,7 +1204,7 @@
 							],
 							"header": {
 								"name": "Header15",
-								"text": "Last name",
+								"text": ":xliff:HDI2_LastName",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -1204,8 +1214,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column16",
@@ -1213,9 +1225,6 @@
 							"width": 150,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -1224,7 +1233,7 @@
 							],
 							"header": {
 								"name": "Header16",
-								"text": "Email",
+								"text": ":xliff:HDI2_Email",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -1234,22 +1243,21 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column17",
 							"dataSource": "This:C1470.school.name",
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"header": {
 								"name": "Header17",
-								"text": "School",
+								"text": ":xliff:HDI2_School",
 								"stroke": "automatic",
 								"textAlign": "left",
 								"verticalAlign": "automatic"
@@ -1259,8 +1267,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column18",
@@ -1269,14 +1279,11 @@
 							"minWidth": 10,
 							"maxWidth": 32000,
 							"enterable": false,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "center",
 							"verticalAlign": "middle",
 							"header": {
 								"name": "Header18",
-								"text": "School \\ primary key",
+								"text": ":xliff:HDI2_SchoolKey",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -1286,10 +1293,15 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						}
-					]
+					],
+					"fill": "automatic",
+					"stroke": "automatic",
+					"alternateFill": "automaticAlternate"
 				},
 				"information9": {
 					"type": "input",
@@ -1309,7 +1321,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"information10": {
 					"type": "input",
@@ -1329,7 +1342,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Text8": {
 					"type": "text",
@@ -1338,7 +1352,8 @@
 					"width": 190,
 					"height": 20,
 					"fontWeight": "bold",
-					"text": "Pupils"
+					"text": ":xliff:HDI2_Pupils",
+					"stroke": "automatic"
 				},
 				"Check Box12": {
 					"type": "checkbox",
@@ -1347,7 +1362,7 @@
 					"width": 80,
 					"height": 20,
 					"dataSource": "btnTrace",
-					"text": "Trace",
+					"text": ":xliff:HDI2_Trace",
 					"focusable": false,
 					"events": [
 						"onClick"

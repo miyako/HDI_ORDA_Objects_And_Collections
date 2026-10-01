@@ -1,5 +1,5 @@
-C_OBJECT:C1216($pupils; $es_pupils; $pupil0; $pupil1)
-C_LONGINT:C283($rank0; $rank1)
+var $pupils; $es_pupils; $pupil0; $pupil1 : Object
+var $rank0; $rank1 : Integer
 
 
 If (btnTrace)

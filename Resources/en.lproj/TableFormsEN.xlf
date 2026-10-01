@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="TableForms" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="TableForms_Info" resname="TableForms_Info">
+        <source xml:space="preserve">INFO</source>
+        <target xml:space="preserve">INFO</target>
+      </trans-unit>
+      <trans-unit id="TableForms_LabelID" resname="TableForms_LabelID">
+        <source xml:space="preserve">ID : </source>
+        <target xml:space="preserve">ID : </target>
+      </trans-unit>
+      <trans-unit id="TableForms_Page" resname="TableForms_Page">
+        <source xml:space="preserve">Page:</source>
+        <target xml:space="preserve">Page:</target>
+      </trans-unit>
+      <trans-unit id="TableForms_Title" resname="TableForms_Title">
+        <source xml:space="preserve">Title</source>
+        <target xml:space="preserve">Title</target>
+      </trans-unit>
+      <trans-unit id="TableForms_Employee" resname="TableForms_Employee">
+        <source xml:space="preserve">Employee</source>
+        <target xml:space="preserve">Employee</target>
+      </trans-unit>
+      <trans-unit id="TableForms_LabelFirstName" resname="TableForms_LabelFirstName">
+        <source xml:space="preserve">firstname : </source>
+        <target xml:space="preserve">firstname : </target>
+      </trans-unit>
+      <trans-unit id="TableForms_LabelLastName" resname="TableForms_LabelLastName">
+        <source xml:space="preserve">lastName : </source>
+        <target xml:space="preserve">lastName : </target>
+      </trans-unit>
+      <trans-unit id="TableForms_LabelManagerID" resname="TableForms_LabelManagerID">
+        <source xml:space="preserve">managerID : </source>
+        <target xml:space="preserve">managerID : </target>
+      </trans-unit>
+      <trans-unit id="TableForms_LabelEmployerID" resname="TableForms_LabelEmployerID">
+        <source xml:space="preserve">employerID : </source>
+        <target xml:space="preserve">employerID : </target>
+      </trans-unit>
+      <trans-unit id="TableForms_LabelSalary" resname="TableForms_LabelSalary">
+        <source xml:space="preserve">salary : </source>
+        <target xml:space="preserve">salary : </target>
+      </trans-unit>
+      <trans-unit id="TableForms_School" resname="TableForms_School">
+        <source xml:space="preserve">School</source>
+        <target xml:space="preserve">School</target>
+      </trans-unit>
+      <trans-unit id="TableForms_LabelName" resname="TableForms_LabelName">
+        <source xml:space="preserve">name : </source>
+        <target xml:space="preserve">name : </target>
+      </trans-unit>
+      <trans-unit id="TableForms_LabelState" resname="TableForms_LabelState">
+        <source xml:space="preserve">state : </source>
+        <target xml:space="preserve">state : </target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
